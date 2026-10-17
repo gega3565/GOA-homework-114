@@ -20,7 +20,7 @@ user_goal = input("please enter your goal: ")
 print("my name is " + user_name)
 print("i am " + user_age + " years old")
 print("my dream professions is " + user_dream_profession)
-print("i want to " + user_goal)
+print("i want to live in " + user_goal)
 
 
 

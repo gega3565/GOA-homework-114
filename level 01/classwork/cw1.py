@@ -2,11 +2,11 @@ first_name = "gega"
 
 last_name = "mghebrishvili"
 
-age = "15"
+age = 15
 
 favorite_color = "green/lime"
 
-favorite_number = "121"
+favorite_number = 121
 
 
 #კომენტარები - ეს არის ტექსტი რომელსაც კონსოლი აიგნორებს executე-ის დროს

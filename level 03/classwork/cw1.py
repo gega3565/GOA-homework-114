@@ -6,7 +6,7 @@ age = input("შეიყვანე წლოვანება: ")
 
 full_name = (first_name + last_name)
 
-print("user full name: " + "" + full_name)
+print("user full name: " + " " + full_name)
 print("user age: " + age)
 
 #ამ კოდით ჩვენ შეგვძლია მომხმარებლის სახელი გავიგოთ შევინახოთ და შემდეგ გამოვსახოთ
