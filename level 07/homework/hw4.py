@@ -3,20 +3,10 @@
 #  ეს დავალება შეასრულეთ როგორც for, ასევე while ციკლით.
 
 
-n = int(input("შეიყვანეთ n: "))
+n = int(input("Please enter your number: "))
 
-
-print("for:")
-for i in range(1, n + 1, 2):
-    print(i)
-
-
-print("while:")
-i = 1
-while i <= n:
-    print(i)
-    i = i + 2
-
+for number in range(1, n + 1, 2):
+    print(number)
 
 
 

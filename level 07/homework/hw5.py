@@ -6,20 +6,14 @@
 # როგორც for, ასევე while ციკლით.
 
 
-n = int(input("შეიყვანეთ დადებითი მთელი რიცხვი: "))
+n = input("Please enter your number: ")
 
+numbers_sum = 0
 
-total = 0
-for digit in str(n):
-    total = total + int(digit)
-print("for:", total)
+for number in n:
+    number_sum += int(number)
 
-total = 0
-number = n
-while number > 0:
-    total = total + number % 10
-    number = number // 10
-print("while:", total)
+print(numbers_sum)
 
 
 

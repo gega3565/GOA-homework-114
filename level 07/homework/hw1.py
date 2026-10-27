@@ -2,16 +2,10 @@
 # ეს დავალება შეასრულეთ როგორც for,
 # ასევე მოიძიეთ ინფორმაცია while ციკლზე და while loop-ითაც შეარსრულეთ ეს დავალება.
 
-n = int(input("input n: "))
+n = int(input("enter your number: "))
 
-for i in range (1, n + 1):
-    print(i)
-
-
-i = 1
-while i <= n:
-    print(i)
-    i = i + 1
+for number in range(1, n + 1):
+    print(number)
 
 
 

@@ -3,23 +3,14 @@
 # საბოლოოდ გამოიტანეთ მიღებული ჯამი.
 # ეს დავალება შეასრულეთ როგორც for, ასევე while ციკლით.
 
-n = int(input("შეიყვანეთ n: "))
+n = int(input("Please enter your number: "))
 
+sum_number = 0
 
-total = 0
-for i in range(0, n + 1, 2):
-    total = total + i
-print("for:", total)
+for number in range(0, n + 1, 2):
+    sum_numbers += number
 
-total = 0
-i = 0
-while i <= n:
-    total = total + i
-    i = i + 2
-print("while:", total)
-
-
-
+print(sum_numbers)
 
 
 

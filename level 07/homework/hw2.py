@@ -5,20 +5,13 @@
 #  ეს დავალება შეასრულეთ როგორც for, ასევე while ციკლით.
 
 
-n = int(input("შეიყვანეთ n: "))
-
-
-count = 0
-for i in range(3, n + 1, 3):
-    count = count + 1
-print(count)
-
+n = int(input("enter your number: "))
 
 count = 0
-i = 3
-while i <= n:
-    count = count + 1
-    i = i + 3
+
+for number in range(0, n + 1, 3):
+    count += 1 
+
 print(count)
 
 
