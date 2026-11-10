@@ -4,8 +4,11 @@
 
 mixed_list = [1, "hello", 3.14, True, 42, "Nika", 7.5, False, "Python", 100]
 
-i = len(mixed_list) - 1
+result = []
 
-while i >= 0:
-    print(mixed_list[i])
-    i = i - 1
+index = len(mixed_list) - 1
+
+while index >= 0:
+    print(mixed_list[index])
+
+    index -= 1
