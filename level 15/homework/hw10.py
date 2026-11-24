@@ -2,7 +2,7 @@
 
 def disemvowel(string):
     result = ""
-    vowels = "aeiou"
+    vowels = "aeiouAEIOU"
 
     for letter in string:
         if letter not in vowels:
