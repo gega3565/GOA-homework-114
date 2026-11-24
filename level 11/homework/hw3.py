@@ -9,6 +9,8 @@ result = []
 index = len(mixed_list) - 1
 
 while index >= 0:
-    print(mixed_list[index])
+    result.append(mixed_list[index])
 
     index -= 1
+
+print(result)
